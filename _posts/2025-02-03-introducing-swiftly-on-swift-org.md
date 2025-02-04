@@ -64,7 +64,7 @@ Run lldb from that snapshot by name with the special '+' parameter:
 swiftly run lldb +main-snapshot-2025-02-02
 --
 (lldb) _
-``
+```
 
 And run it using the 6.0.3 toolchain we installed previously:
 
@@ -72,7 +72,7 @@ And run it using the 6.0.3 toolchain we installed previously:
 swiftly run lldb +6.0.3
 ```
 
-This is a very brief tour of how to use swiftly to manage your toolchains.
+This is a very brief tour of how to use swiftly to manage and use your toolchains.
 
 ## More information
 
