@@ -14,6 +14,8 @@ Swiftly has been around for some years as a tool that Swift developers have used
 
 ## Quick tour
 
+Let's take a look at some of the features of Swiftly. These steps should be largely the same whether you are working with Linux or macOS.
+
 After downloading and installing swiftly you can list the available toolchains:
 
 ```
@@ -26,7 +28,7 @@ Install a toolchain from the list.
 swiftly install 6.0.3
 ```
 
-Swiftly will provide directions after installation if there are any system packages, or shell commands for smooth operation of the new toolchain. Use the toolchain so that the usual commands come from that one.
+Swiftly will provide directions after installation if there are any system packages, or shell commands needed for smooth operation of the new toolchain. You "use" the toolchain so that the usual commands come from that one.
 
 
 ```
@@ -64,17 +66,19 @@ swiftly run lldb +main-snapshot-2025-02-02
 (lldb) _
 ``
 
-And run it using the 6.0.3 toolchain installed above:
+And run it using the 6.0.3 toolchain we installed previously:
 
 ```
 swiftly run lldb +6.0.3
 ```
+
+This is a very brief tour of how to use swiftly to manage your toolchains.
 
 ## More information
 
 If you're curious about swiftly, you can find more information in these places:
 
 * [Swiftly Repo](https://github.com/swiftlang/swiftly)
-* [Swiftly DocC](https://swiftpackageindex.com/swiftlang/swiftly/0.4.0-dev/documentation/swiftlydocs)
+* [Swiftly DocC](https://swiftpackageindex.com/swiftlang/swiftly/0.4.0/documentation/swiftlydocs)
 
 Download the latest version from the [swift downloads page](https://www.swift.org/install).
