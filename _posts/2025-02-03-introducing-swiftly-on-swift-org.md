@@ -10,11 +10,11 @@ Swiftly, the Swift toolchain manager is now available on swift.org.
 
 ## Introducing Swiftly
 
-Swiftly has been around for some years as a tool that Swift developers have used to manage their toolchain with Linux. Originally conceived by Patrick Freed as part of the Swift on Server project, it was adopted by the Swift language family on GitHub last year. Since that time it's gained a new supported platform, macOS. There are new features, such as listing available toolchains using the swift.org API. And now it is the recommended tool for working with Swift toolchains on both platforms on swift.org.
+Swiftly has been around for some years as a tool that Swift developers have used to manage their toolchain with Linux. Originally conceived by Patrick Freed as part of the Swift on Server project, it was adopted by the Swift language family on GitHub last year. Now it is the recommended tool for working with Swift toolchains on both platforms on swift.org.
 
 ## What's new
 
-There have been substantial changes from the previous release. First, Swiftly is now offered from swift.org from the downloads page. The installation mechanism has been rewritten in Swift. There is now macOS support too. You can list available toolchain versions (releases, and snapshots) directly from Swiftly using the `list-available` subcommand.
+There have been substantial changes from the previous release. First, Swiftly is now offered from the swift.org downloads page. The installation mechanism has been rewritten in Swift. There is now macOS support too. You can list available toolchain versions (releases, and snapshots) directly from Swiftly using the `list-available` subcommand using the swift.org API. Share your preferred toolchain version with a `.swift-version` file using git and Swiftly can use that to select the toolchain for the project, and update it when you use another.
 
 ## Quick tour
 
@@ -83,5 +83,5 @@ This is a very brief tour of how to use swiftly to manage and use your toolchain
 If you're curious about swiftly, you can find out more in these places:
 
 * [Install Swift](https://www.swift.org/install)
-* [Swiftly at GitHub](https://github.com/swiftlang/swiftly)
 * [Swiftly Documentation](https://www.swift.org/swiftly/documentation/swiftlydocs/)
+* [Swiftly at GitHub](https://github.com/swiftlang/swiftly)
