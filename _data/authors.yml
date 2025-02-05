@@ -476,3 +476,8 @@ owen-voorhees:
   name: Owen Voorhees
   github: owenv
   about: "Owen Voorhees is a member of the team at Apple working on Swift Build."
+
+chris-mcgee:
+  name: Chris McGee
+  github: cmcgee1024
+  about: "Chris McGee is on the team at Apple working on Swift Package Manager, and Swiftly."
