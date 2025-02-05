@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-date: 2025-02-04 6:00:00
+date: 2025-02-06 6:00:00
 title: Introducing Swiftly on swift.org
 author: [chris-mcgee]
 ---
@@ -10,7 +10,11 @@ Swiftly, the Swift toolchain manager is now available on swift.org.
 
 ## Introducing Swiftly
 
-Swiftly has been around for some years as a tool that Swift developers have used to manage their toolchain with Linux. Originally conceived by Patrick Freed as a Swift on Server project, it was adopted by the Swift language family on GitHub last year. Since that time it's gained a new supported platform, macOS. There are new features, such as listing available toolchains using the swift.org API. And now it is the recommended tool for working with Swift toolchains on both platforms on swift.org.
+Swiftly has been around for some years as a tool that Swift developers have used to manage their toolchain with Linux. Originally conceived by Patrick Freed as part of the Swift on Server project, it was adopted by the Swift language family on GitHub last year. Since that time it's gained a new supported platform, macOS. There are new features, such as listing available toolchains using the swift.org API. And now it is the recommended tool for working with Swift toolchains on both platforms on swift.org.
+
+## What's new
+
+There have been substantial changes from the previous release. First, Swiftly is now offered from swift.org from the downloads page. The installation mechanism has been rewritten in Swift. There is now macOS support too. You can list available toolchain versions (releases, and snapshots) directly from Swiftly using the `list-available` subcommand.
 
 ## Quick tour
 
@@ -76,9 +80,8 @@ This is a very brief tour of how to use swiftly to manage and use your toolchain
 
 ## More information
 
-If you're curious about swiftly, you can find more information in these places:
+If you're curious about swiftly, you can find out more in these places:
 
-* [Swiftly Repo](https://github.com/swiftlang/swiftly)
-* [Swiftly DocC](https://swiftpackageindex.com/swiftlang/swiftly/0.4.0/documentation/swiftlydocs)
-
-Download the latest version from the [swift downloads page](https://www.swift.org/install).
+* [Install Swift](https://www.swift.org/install)
+* [Swiftly at GitHub](https://github.com/swiftlang/swiftly)
+* [Swiftly Documentation](https://www.swift.org/swiftly/documentation/swiftlydocs/)
