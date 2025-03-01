@@ -21,7 +21,8 @@ title: Install Swift
   </p>
   <br>
   <code id="macos-swiftly-quick-start" style="font-size: 8pt;">
-curl -O https://download.swift.org/swiftly/darwin/swiftly-{{ site.data.builds.swiftly_release.version }}.pkg
+curl -O \
+    https://download.swift.org/swiftly/darwin/swiftly-{{ site.data.builds.swiftly_release.version }}.pkg
 installer -pkg swiftly-{{ site.data.builds.swiftly_release.version }}.pkg -target CurrentUserHomeDirectory
 ~/usr/local/bin/swiftly init --quiet-shell-followup
 . ~/Library/Application\ Support/swiftly/env.sh

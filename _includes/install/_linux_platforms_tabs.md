@@ -8,7 +8,7 @@
   <br>
   <code id="linux-swiftly-quick-start" style="font-size: 8pt;">
 curl -O \
-https://download.swift.org/swiftly/linux/swiftly-{{ site.data.builds.swiftly_release.version }}-$(uname -m).tar.gz
+    https://download.swift.org/swiftly/linux/swiftly-{{ site.data.builds.swiftly_release.version }}-$(uname -m).tar.gz
 tar zxf swiftly-{{ site.data.builds.swiftly_release.version }}-$(uname -m).tar.gz
 ./swiftly init --quiet-shell-followup
 . ~/.local/share/swiftly/env.sh
