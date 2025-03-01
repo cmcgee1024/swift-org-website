@@ -5,9 +5,20 @@
   <p class="description">
     The Swiftly installer manages Swift and its dependencies. It supports switching between different versions and downloading updates.
   </p>
-  <h4>License: <a href="https://raw.githubusercontent.com/swiftlang/swiftly/refs/heads/main/LICENSE.txt">Apache-2.0</a> | PGP: <a href="https://download.swift.org/swiftly/linux/swiftly-0.4.0-dev-x86_64.tar.gz.sig">Signature</a></h4>
-  <a href="https://download.swift.org/swiftly/linux/swiftly-0.4.0-dev-x86_64.tar.gz" class="cta-secondary">Download</a>
-  <a href="/install/linux/swiftly" class="cta-secondary">Instructions</a>
+  <br>
+  <code id="linux-swiftly-quick-start" style="font-size: 8pt;">
+curl -O \
+https://download.swift.org/swiftly/linux/swiftly-{{ site.data.builds.swiftly_release.version }}-$(uname -m).tar.gz
+tar zxf swiftly-{{ site.data.builds.swiftly_release.version }}-$(uname -m).tar.gz
+./swiftly init --quiet-shell-followup
+. ~/.local/share/swiftly/env.sh
+hash -r
+  </code>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('linux-swiftly-quick-start').textContent); window.alert('Copied!');">Copy Command</button>
+  <br>
+  <h4>License: <a href="https://raw.githubusercontent.com/swiftlang/swiftly/refs/heads/main/LICENSE.txt">Apache-2.0</a> | PGP: <a href="https://download.swift.org/swiftly/linux/swiftly-{{ site.data.builds.swiftly_release.version }}-x86_64.tar.gz.sig">Signature</a></h4>
+  <a href="https://download.swift.org/swiftly/linux/swiftly-{{ site.data.builds.swiftly_release.version }}-x86_64.tar.gz" class="cta-secondary">Download</a>
+  <a href="/install/linux/swiftly" class="cta-secondary">Getting Started Guide</a>
 </li>
   <li class="grid-level-1">
     <h3>Container</h3>
